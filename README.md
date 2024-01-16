@@ -36,7 +36,6 @@ yes, this is one line:
 ```
 curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules
 ```
-(check the repo in the description for copy+paste!)<!-- {{remove}}-->
 
 If your screen is now full of text listing all sorts of microcontrollers, don't worry, it worked. Restart your `udev` service with `sudo service udev restart` and add your user to the "dialout" group like this:
 
