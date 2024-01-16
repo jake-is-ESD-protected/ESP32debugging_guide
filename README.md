@@ -34,10 +34,7 @@ Here drivers are easier to install, albeit in a non intuitive fashion. We need t
 
 yes, this is one line:
 ```
-curl -fsSL https://raw.githubusercontent.com/platformio/
-platformio-core/develop/platformio/assets/system/99-
-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-
-platformio-udev.rules
+curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules
 ```
 (check the repo in the description for copy+paste!)<!-- {{remove}}-->
 
